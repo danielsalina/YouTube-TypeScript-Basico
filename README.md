@@ -1,5 +1,5 @@
 # Curso de TypeScript desde cero
 
 <p>
-Espero que el tutorial les sea de utilidad
+Espero que el curso les sea de utilidad
 </p>
