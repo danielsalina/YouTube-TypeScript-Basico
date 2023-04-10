@@ -16,24 +16,26 @@
 // UNKNOWN
 // ENTRE OTROS QUE VERÉMOS A LO LARGO DEL CURSO...
 
-let nombre = 'TS';
-console.log(nombre.toLocaleLowerCase());
+(() => {
+  let nombre = 'TS';
+  console.log(nombre.toLocaleLowerCase());
 
-let numero = 123_456;
-console.log(numero);
+  let numero = 123_456;
+  console.log(numero);
 
-let booleano = true;
-console.log(typeof booleano);
+  let booleano = true;
+  console.log(typeof booleano);
 
-let objeto = { clase: 'tipos' };
-console.log(typeof objeto);
+  let objeto = { clase: 'tipos' };
+  console.log(typeof objeto);
 
-let array = [15984, 'kbknb', true];
-console.log(typeof array);
+  let array = [15984, 'kbknb', true];
+  console.log(typeof array);
 
-let funcion = function nombre(name: string) {
-  return name;
-};
+  let funcion = function nombre(name: string) {
+    return name;
+  };
 
-const nombres = 'AGUA';
-console.log(nombres);
+  const nombres = 'AGUA';
+  console.log(nombres);
+})();
