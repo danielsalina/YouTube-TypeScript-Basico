@@ -1,8 +1,5 @@
-import { Usuario, ROLES } from './tipos_avanzados/enum';
+import { userID, db_sql, db_nosql } from './tipos_avanzados/tuplas';
 
-let user: Usuario = {
-  correo: 'correo@correo.com',
-  roles: ROLES.ADMINISTRADOR,
-};
-
-console.log(user);
+console.log(userID);
+console.log(typeof db_sql, db_sql);
+console.log(typeof db_nosql, db_nosql);
