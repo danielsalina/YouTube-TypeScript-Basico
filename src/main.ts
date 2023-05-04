@@ -1,5 +1,13 @@
-import { userID, db_sql, db_nosql } from './tipos_avanzados/tuplas';
+import { desconocido } from './tipos_avanzados/unknown';
 
-console.log(userID);
-console.log(typeof db_sql, db_sql);
-console.log(typeof db_nosql, db_nosql);
+if (typeof desconocido === 'number') {
+  desconocido.toString();
+}
+
+function get(data: string): unknown {
+  return JSON.parse(data);
+}
+
+if (typeof desconocido === 'number') {
+  let numeros: number = desconocido;
+}
